@@ -1,0 +1,53 @@
+span#mySpan
+{
+height: 90px;
+line-height: 90px;
+padding-left: 50px;
+vertical-align:middle;
+color: #FFFFFF;
+font-size: 20px;
+font-family: cursive;
+}
+
+span#go
+{
+height: 90px;
+line-height: 90px;
+padding-right: 50px;
+/*position: relative;        */
+    /*width: 85%;*/
+vertical-align:middle;
+}
+
+img#logo
+{
+/*padding-top: -10px;*/
+/*height: 80%;*/
+/*width: 80%;*/
+}
+
+body{
+	padding-top: 2em;
+}
+.menu{
+	background-image:url('../img/menu_background.png'); 
+	width=90%;
+	height:90px;
+	background-size: cover;
+}
+
+.item{
+	background-image:url('../img/item_back.png');
+	background-size: cover;
+	width=90%;
+	height:190px;
+}
+
+.img-item {
+    border: 5px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.clearfix:before, .clearfix:after {  content: "\0020"; display: block; height: 0; visibility: hidden;    } 
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
