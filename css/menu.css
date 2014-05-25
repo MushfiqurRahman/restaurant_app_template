@@ -85,7 +85,11 @@ body{
 	
 }
 .price {
+	margin: 0px 0px 0px 15px;
+}
 
+.customize {
+	margin-top: -13px;
 }
 
 .order {
