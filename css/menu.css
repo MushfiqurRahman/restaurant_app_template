@@ -30,6 +30,14 @@ body{
 	padding-top: 2em;
 }
 
+
+.menu_logo{
+    width: 25%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-top:2em;
+}
+
 .menu{
 	background-image:url('../img/menu_background.png'); 
 	width:100%;
