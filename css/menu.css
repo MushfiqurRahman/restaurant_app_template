@@ -29,9 +29,14 @@ img#logo
 body{
 	padding-top: 2em;
 }
+
+.menu_logo{
+    width: 25%;
+    margin: 0 auto;
+}
 .menu{
 	background-image:url('../img/menu_background.png'); 
-	width=90%;
+	width:90%;
 	height:90px;
 	background-size: cover;
 }
@@ -39,7 +44,7 @@ body{
 .item{
 	background-image:url('../img/item_back.png');
 	background-size: cover;
-	width=90%;
+	width:90%;
 	height:190px;
 }
 
