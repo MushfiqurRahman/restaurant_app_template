@@ -60,8 +60,10 @@ body{
 .total {
 	text-align: right;
 	color: #FFFFFF;
+	line-height: 30px;
 	font-size: 20px;
 	font-family: cursive;
+	height: 100px;
 
 }
 .order_detail {
