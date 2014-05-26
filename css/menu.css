@@ -23,6 +23,20 @@ span#title{
 
 }
 
+.myButton{
+    background:url('../img/back.png') no-repeat;
+    background-size: cover;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:75px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.back {
+	border-top: 20px;
+}
+
 img#logo
 {
 /*padding-top: -10px;*/
