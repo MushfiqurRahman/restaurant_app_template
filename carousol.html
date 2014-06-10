@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Activate Twitter Bootstrap 3 Carousel via Data Attributes</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<!-- Stylesheets -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+        <!-- <link rel="stylesheet" href="css/bootstrap-responsive.css" /> -->
+        <!-- <link rel="stylesheet" href="css/custom.css" /> -->
+        <link rel="stylesheet" href="css/menu.css" />
+
+<style type="text/css">
+
+.item{
+    background: #333;    
+    text-align: center;
+    height: 150px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                
+                
+         		<div class="carousel-caption">
+                <div class="image_div" style="">
+                <img src="img/23.jpg" alt="..." class="img-item" style="height:85px; width:85px;  margin: 25px 0 10px 10px;  float:left;">
+
+                </div>
+                  <h3>First slide label</h3>
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                
+                <div class="carousel-caption">
+                    <div class="image_div" style="">
+                <img src="img/23.jpg" alt="..." class="img-item" style="height:85px; width:85px;  margin: 25px 0 10px 10px;  float:left;">
+
+                </div>
+                  <h3>Second slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                
+                <div class="carousel-caption">
+                  <div class="image_div" style="">
+                <img src="img/23.jpg" alt="..." class="img-item" style="height:85px; width:85px;  margin: 25px 0 10px 10px;  float:left;">
+
+                </div>
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+</body>
+</html>                                		
